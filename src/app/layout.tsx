@@ -16,7 +16,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>ColockMon</title>
         <meta name="application-name" content="ColockMon" />
+        <meta name="author" content="Codeliner" />
+        <meta name="robots" content="index, follow" />
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, height=device-height, shrink-to-fit=yes, user-scalable=yes"
+        />
+        <meta name="description" content="Simple clock application." />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="ColockMon" />
