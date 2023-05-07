@@ -37,6 +37,16 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Gowun+Dodum&family=Sunflower:wght@300&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
