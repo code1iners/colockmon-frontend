@@ -32,7 +32,7 @@ export default function SimpleDigitalClock() {
   };
 
   return (
-    <div className="aspect-video flex flex-col gap-2 justify-center items-center">
+    <div className="aspect-video flex flex-col gap-2 justify-center items-center select-none">
       <span className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
         {sexyTime()}
       </span>
